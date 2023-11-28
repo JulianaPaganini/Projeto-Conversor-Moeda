@@ -1,0 +1,138 @@
+* {
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+outline: none;
+}
+
+body{
+
+    background: #87CEEB;
+    max-width: 100vw;
+    max-height: 100vw;
+}
+
+main{
+
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 45px 24px 23px;
+}
+   
+
+
+.logo {
+
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.button {
+    
+    margin-top: 44px;
+    width: 327px;
+    height: 48px;
+    background: #87CEEB;
+    border: 1px solid #87CEEB ;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 1px;
+    margin-bottom: 36px;
+    cursor: pointer;
+ 
+}
+
+.button:hover{
+
+    opacity: 0.8;
+}
+
+.button:active{
+
+    opacity: 0.6;
+}
+
+section {
+        width: 340px ;
+        height: 320px;
+        border: 1px solid gray;
+        border-radius: 20px ;
+        
+
+}
+
+div{
+    width: 127px;
+    height: 251px;
+    margin-top: 12px;
+    margin-left: 124px;
+}
+
+select{
+
+        background: #FFFFFF;
+        border: 1px solid #BBBBBB;
+        border-radius: 4px;
+        height: 48px;
+        width: 100%;
+        margin-bottom: 24px;
+        padding-left: 18px;
+        font-size: 16px;
+        font-weight: 700;
+        color:#555555;
+        appearance: none;
+        cursor: pointer;
+
+}
+
+
+input{
+
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#555555;
+    cursor: pointer;
+}
+
+.currency-value, .currency-value-to-convert{
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    margin-left: -7px;
+    color: #555555;
+
+
+}
+
+.currency{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#777777;
+    margin: 10px;
+
+
+}
+
+.arrow{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px ;
+}
+
